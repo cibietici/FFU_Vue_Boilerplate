@@ -5,7 +5,10 @@
 <script>
 export default {
 	data() {
-		clientID: import.meta.env.VITE_APP_NAME
+		return {
+			appName: import.meta.env.VITE_APP_NAME
+		}
+		
 	}
 }
 </script>
